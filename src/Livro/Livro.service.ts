@@ -20,16 +20,16 @@ export class LivroService {
     return this.livroRepository.find();
   }
 
-  findOne(id: string) {
+  findOne(id: number) {
     return this.livroRepository.findOne({ where: { idLivro: id } });
   }
 
-  async update(id: string, livroDto: LivroDto) {
+  async update(id: number, livroDto: LivroDto) {
     await this.livroRepository.update(id, livroDto);
     return this.findOne(id);
   }
 
-  remove(id: string) {
+  remove(id: number) {
     return this.livroRepository.delete(id);
   }
 }

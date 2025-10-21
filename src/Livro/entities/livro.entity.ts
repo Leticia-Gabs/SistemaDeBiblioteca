@@ -1,9 +1,9 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class Livro {
-  @PrimaryColumn({ length: 10 })
-  idLivro: string;
+  @PrimaryGeneratedColumn()
+  idLivro: number;
 
   @Column({ length: 100 })
   autor: string;
@@ -14,3 +14,4 @@ export class Livro {
   @Column({ length: 200 })
   titulo: string;
 }
+

@@ -1,7 +1,7 @@
-
 export class LivroDto {
-    idLivro: string;
+    idLivro: number;
     autor: string;
     anoPublicacao: string;
     titulo: string;
 }
+
