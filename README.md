@@ -174,11 +174,6 @@ npm run format         # Formata o código
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Autor
-
-**Italo Braz** - Desenvolvedor do Sistema de Biblioteca
-
----
 
 <p align="center">
   Feito com ❤️ usando <a href="https://nestjs.com">NestJS</a>
